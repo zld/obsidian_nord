@@ -57,33 +57,33 @@
 }
 .theme-light
 {
-	--background-primary:         var(--light3);
-	--background-primary-alt:     var(--light3);
-	--background-secondary:       var(--light2);
-	--background-secondary-alt:   var(--light1);
-	--text-normal:                var(--dark1);
-	--text-faint:                 var(--dark3);
-	--text-muted:                 var(--dark2);
-	--text-title-h1:              var(--red);
-	--text-title-h2:              var(--orange);
-	--text-title-h3:              var(--yellow);
-	--text-title-h4:              var(--green);
-	--text-title-h5:              var(--purple);
-	--text-link:                  var(--frost0);
-	--text-a:                     var(--frost3);
-	--text-a-hover:               var(--frost1);
-	--text-mark:                  rgba(136, 192, 208, 0.3); /* frost1 */
-	--pre-code:                   var(--light2);
-	--text-highlight-bg:          var(--light0);
-	--interactive-accent:         var(--frost0);
-	--interactive-before:         var(--light0);
-	--background-modifier-border: var(--light1);
-	--text-accent:                var(--orange);
-	--interactive-accent-rgb:     var(--orange);
-	--inline-code:                var(--frost1);
-	--code-block:                 var(--frost1);
-	--vim-cursor:                 var(--orange);
-	--text-selection:             var(--light0);
+    --background-primary:         var(--light3);
+    --background-primary-alt:     var(--light3);
+    --background-secondary:       var(--light2);
+    --background-secondary-alt:   var(--light1);
+    --text-normal:                var(--dark1);
+    --text-faint:                 var(--dark3);
+    --text-muted:                 var(--dark2);
+    --text-title-h1:              var(--red);
+    --text-title-h2:              var(--orange);
+    --text-title-h3:              var(--yellow);
+    --text-title-h4:              var(--green);
+    --text-title-h5:              var(--purple);
+    --text-link:                  var(--frost0);
+    --text-a:                     var(--frost3);
+    --text-a-hover:               var(--frost1);
+    --text-mark:                  rgba(136, 192, 208, 0.3); /* frost1 */
+    --pre-code:                   var(--light2);
+    --text-highlight-bg:          var(--light0);
+    --interactive-accent:         var(--frost0);
+    --interactive-before:         var(--light0);
+    --background-modifier-border: var(--light1);
+    --text-accent:                var(--orange);
+    --interactive-accent-rgb:     var(--orange);
+    --inline-code:                var(--frost1);
+    --code-block:                 var(--frost1);
+    --vim-cursor:                 var(--orange);
+    --text-selection:             var(--light0);
 }
 
 .theme-dark code[class*="language-"],
@@ -119,7 +119,7 @@
 html,
 body
 {
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 
 strong
@@ -360,7 +360,7 @@ img
 .markdown-preview-section h1
 {
     font-weight: 500 !important;
-    font-size: 34px !important;
+    font-size: 29px !important;
     color: var(--text-title-h1) !important;
 }
 
@@ -368,7 +368,7 @@ img
 .markdown-preview-section h2
 {
     font-weight: 500 !important;
-    font-size: 26px !important;
+    font-size: 22px !important;
     color: var(--text-title-h2) !important;
 }
 
@@ -376,7 +376,7 @@ img
 .markdown-preview-section h3
 {
     font-weight: 500 !important;
-    font-size: 22px !important;
+    font-size: 19px !important;
     color: var(--text-title-h3) !important;
 }
 
@@ -384,7 +384,7 @@ img
 .markdown-preview-section h4
 {
     font-weight: 500 !important;
-    font-size: 20px !important;
+    font-size: 17px !important;
     color: var(--text-title-h4) !important;
 }
 
@@ -394,7 +394,7 @@ img
 .markdown-preview-section h6
 {
     font-weight: 500 !important;
-    font-size: 18px !important;
+    font-size: 15px !important;
     color: var(--text-title-h5) !important;
 }
 
